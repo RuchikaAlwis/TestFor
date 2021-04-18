@@ -26,10 +26,7 @@ idx = 0
 flag1 = True
 flag2 = True   
 
-while flag1:
-    sub_list = []
-    temp_list = []
-    flag2 = True
+
     
     if len(train) > idx :
         sub_list.append(train["Location"][idx])
